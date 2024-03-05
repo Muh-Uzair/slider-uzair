@@ -38,7 +38,7 @@ function control_left_right_buttons_working_function(exact_btn)
 }
 function control_dot_pressing(dot_number)
 {
-    
+    curr_slide = dot_number ;    
     view_1.dot_wokring_function(dot_number) ;
 }
 
