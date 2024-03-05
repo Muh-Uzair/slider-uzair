@@ -41,7 +41,7 @@ p
     width: 70px;
     border-radius: 40px;
 
-    background-color: rgb(255, 255, 255 , 0.5);
+    background-color: rgb(255, 255, 255 , 0.1);
 
     cursor: pointer;
 
@@ -85,7 +85,7 @@ p
     height: 100%;
     width: 100%;
     position: absolute;
-    overflow: hidden; 
+    /* overflow: hidden;  */
     overflow:visible;
     
     position: relative;
