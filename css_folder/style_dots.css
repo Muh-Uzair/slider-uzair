@@ -1,0 +1,34 @@
+.div_dots
+{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex: 1;
+    height: 15px;
+    /* background-color: rgb(205, 255, 194); */
+
+    left: 50%; /* Center the left edge of the div at 50% of its containing element */
+    transform: translateX(-50%);
+    top:95%;
+}
+.button_dot
+{
+    width: 7px;
+    height: 12px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0px 6px;
+    cursor: pointer;
+}
+.button_dot:hover
+{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.button_dot:active
+{
+    background-color: rgba(255, 255, 255, 0.7);
+}
